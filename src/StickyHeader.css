@@ -1,0 +1,28 @@
+.container{
+    height: 200px;
+    overflow-y: scroll;
+}
+.container table{
+  border-bottom: 1px solid #221111;
+}
+.scroll{
+  width: 200px;
+}
+.scrollable{
+  border-spacing: 0;
+}
+td{
+  min-width:150px !important;
+  max-width:150px !important;
+  border: 1px solid #221111;
+  padding: 5px;
+}
+.stickyHeader table{
+  border-spacing: 0;
+}
+.stickyHeader table thead{
+  background-color: #f07e7e;
+  font-weight: bold;
+}
+  
+  
